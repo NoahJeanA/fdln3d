@@ -23,7 +23,7 @@
   <header class="container">
     <nav>
       <ul>
-        <li><a href="{{ "" | relURL }}"><strong>{{ .Site.Title }}</strong></a></li>
+        <li><a class="brand" href="{{ "" | relURL }}">{{ partial "logo-icon.html" . }}<strong>{{ .Site.Title }}</strong></a></li>
       </ul>
       <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
         <span class="nav-toggle-icon-open">{{ partial "icons/menu.html" . }}</span>

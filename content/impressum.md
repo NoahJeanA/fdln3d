@@ -2,17 +2,16 @@
 title: "Impressum"
 ---
 
-**[Platzhalter — bitte mit generiertem Text ersetzen, z.B. von e-recht24.de]**
+Angaben gemäß § 5 DDG:
 
-Angaben gemäß § 5 TMG:
+Falk Meyer\
+FDLN 3D\
+Schlesische Straße 22\
+49448 Lemförde
 
-Name des Betreibers
-Straße Hausnummer
-PLZ Ort
+**Kontakt**\
+Telefon: 05443 9909662\
+E-Mail: falk.meyer@fdln.de
 
-**Kontakt**
-Telefon: [Telefonnummer]
-E-Mail: [E-Mail-Adresse]
-
-**Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV**
-[Name, Anschrift]
+**Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV**\
+Falk Meyer, Schlesische Straße 22, 49448 Lemförde

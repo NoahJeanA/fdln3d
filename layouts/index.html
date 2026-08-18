@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="hero">
-  {{ partial "cube-icon.html" . }}
+  {{ partial "logo-icon.html" . }}
   <hgroup>
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.tagline }}</p>
@@ -64,12 +64,12 @@
 <section id="portfolio">
   <h2>Portfolio</h2>
   <div class="slideshow" role="region" aria-label="Portfolio-Bildergalerie">
-    <img class="slide active" src="{{ "images/gallery-1.jpg" | relURL }}" alt="Nahaufnahme eines 3D-Druckers beim Druck eines gelben Objekts" aria-hidden="false">
-    <img class="slide" src="{{ "images/gallery-2.jpg" | relURL }}" alt="Mehrere 3D-Drucker im Einsatz mit fertigen blauen Druckobjekten" loading="lazy" aria-hidden="true">
-    <img class="slide" src="{{ "images/gallery-3.jpg" | relURL }}" alt="3D-Drucker beim Druck eines strukturierten grauen Objekts" loading="lazy" aria-hidden="true">
-    <img class="slide" src="{{ "images/gallery-4.jpg" | relURL }}" alt="3D-Drucker mit mehreren fertig gedruckten Objekten" loading="lazy" aria-hidden="true">
-    <img class="slide" src="{{ "images/gallery-5.jpg" | relURL }}" alt="Fertig gedrucktes geometrisches Designobjekt" loading="lazy" aria-hidden="true">
-    <img class="slide" src="{{ "images/gallery-6.jpg" | relURL }}" alt="Nahaufnahme eines 3D-Druckers mit rotem Druckobjekt" loading="lazy" aria-hidden="true">
+    <img class="slide active" src="{{ "images/gallery-1.jpg" | relURL }}" alt="Original Prusa MK4S 3D-Drucker auf einer Werkbank in der Werkstatt" aria-hidden="false">
+    <img class="slide" src="{{ "images/gallery-2.jpg" | relURL }}" alt="Prusa MK4S druckt eine orangefarbene Figur in einem Holzregal" loading="lazy" aria-hidden="true">
+    <img class="slide" src="{{ "images/gallery-3.jpg" | relURL }}" alt="Prusa MK4S auf einem Arbeitstisch in einer Maschinenwerkstatt" loading="lazy" aria-hidden="true">
+    <img class="slide" src="{{ "images/gallery-4.jpg" | relURL }}" alt="Prusa MK4S neben einem 3D-gedruckten Dinosaurier-Skelett" loading="lazy" aria-hidden="true">
+    <img class="slide" src="{{ "images/gallery-5.jpg" | relURL }}" alt="Prusa MK4S auf einem Beistelltisch im Wohnraum" loading="lazy" aria-hidden="true">
+    <img class="slide" src="{{ "images/gallery-6.jpg" | relURL }}" alt="Prusa MK4S in einer Flugzeugwerkstatt neben einem Helikopter-Cockpit" loading="lazy" aria-hidden="true">
 
     <button class="slide-nav prev" type="button" aria-label="Vorheriges Bild">
       {{ partial "icons/chevron-left.html" . }}
@@ -118,6 +118,10 @@
       <div class="contact-row">
         {{ partial "icons/phone.html" . }}
         <a href="tel:{{ .Site.Params.telHref }}">{{ .Site.Params.phone }}</a>
+      </div>
+      <div class="contact-row">
+        {{ partial "icons/phone.html" . }}
+        <a href="tel:{{ .Site.Params.telHref2 }}">{{ .Site.Params.phone2 }}</a>
       </div>
       <div class="contact-row">
         {{ partial "icons/map-pin.html" . }}

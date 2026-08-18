@@ -10,16 +10,9 @@ materials:
   - name: "PETG"
     image: "images/materials/petg.jpg"
     description: "Schlagfester und hitzebeständiger als PLA, dadurch gut für funktionale Teile mit etwas mechanischer Belastung geeignet."
-  - name: "ABS"
-    image: "images/materials/abs.jpg"
-    description: "Robust und noch hitzebeständiger als PETG, sinnvoll bei Bauteilen mit höherer thermischer oder mechanischer Belastung."
-  - name: "Resin (SLA)"
-    image: "images/materials/resin.jpg"
-    description: "Liefert die feinsten Details. Meine erste Wahl bei filigranen Objekten, Miniaturen oder besonders glatten Oberflächen."
 formats_title: "Technologie & Präzision"
 formats:
   - "FDM / FFF"
-  - "SLA (Resin)"
-  - "Schichthöhe 0.1–0.3 mm"
-  - "Bauraum bis 250×210×210 mm"
+  - "Schichthöhe 0,08–0,28 mm"
+  - "Bauraum bis 256×256×256 mm"
 ---

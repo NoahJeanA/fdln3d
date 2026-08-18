@@ -1,12 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" role="img" aria-labelledby="t">
   <title id="t">Logo Icon</title>
-  <style>
-    .mark { fill: #bd3c13; }
-    @media (prefers-color-scheme: dark) {
-      .mark { fill: #f56b3d; }
-    }
-  </style>
-  <g class="mark">
+  <g fill="#bd3c13">
     <polygon points="30,8.5 70,8.5 60,44.5 50,56.5 40,44.5"/>
     <rect x="18" y="66.5" width="64" height="9" rx="4.5"/>
     <rect x="26" y="82.5" width="48" height="9" rx="4.5"/>
